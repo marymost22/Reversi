@@ -1,0 +1,70 @@
+body{
+  font-family:Century Gotic, Futura,Arial,Verdana,sans-serif;
+}
+
+div {
+	position: absolute;
+	height:50px; 
+	width:50px; 
+	border:1px dashed #757575;
+	background: #FFFFFF;
+}
+
+div span{
+    display: block;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px; 
+    margin: 5px 0 0 5px;	
+
+}
+
+.turn {
+	position: absolute;
+	top: 15px;
+	left: 295px;
+	width: 10px; 
+	height: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+.score{
+	position: absolute;
+	visibility: visible;
+	width: 50px;
+	height: 12px;
+	padding: 10px;
+	font-size: 12px;
+	color:white;
+	border-radius: 20px; 
+	margin: 10px;
+	text-align: center;
+}
+
+.scoreBlack{
+	background: #757575;
+	top: -5px;
+	left: 205px;
+}
+
+.scoreWhite{
+	background: #FF5722;
+	top: -5px;
+	left: 305px;
+}
+
+.message{
+	position: absolute;
+	visibility: visible;
+	border: none;
+	color: black;
+	width: 180px;
+	height: 20px;
+	top: 560px;
+	left: 205px;
+	text-align: center;
+	font-weight: bold;
+}
+		
